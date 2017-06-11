@@ -1,0 +1,29 @@
+.custBackImg{
+	background-image: url("https://img.youtube.com/vi/uNCr7NdOJgw/maxresdefault.jpg");
+	repeat: no-repeat;
+	position: cover;
+}
+
+.custDatalist{
+/*Size of input field*/	
+	height: 40px;
+	width: 85%;                      /*100% of its container (<Div> in this case)*/
+	
+/*Looks and feel*/
+	border-radius: 10px 0px 0px 10px;
+    border: 2px solid #c3d7f7;
+    padding: 20px;
+	margin-right: 0px;
+}
+
+/*The following line removes the dropdown arrow of datalist element*/
+input::-webkit-calendar-picker-indicator {        
+  display: none;
+}
+
+.custBtn{
+	border-radius: 0px 10px 10px 0px;
+	height: 40px;
+	margin-left:-2px;
+	background: url('images/BtnSearch.png') left center no-repeat;
+}

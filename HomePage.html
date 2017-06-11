@@ -1,0 +1,46 @@
+<!Doctype html>
+<html>
+	<head>
+	<title>Homepage</title>
+	
+<!–The link tag provides the path for bootstrap.min.css->
+<!-The meta tag ensures proper rendering and zoom touching for mobile devices. Since bootstrap is a mobile-first approach
+   the meta tag is essential for its proper functioning->
+<!-width=device-width sets the width of the page = width of device screen
+   initial-scale=1 sets the initial zoom level when the page is first loaded by the browser-> 
+   
+	<link rel="stylesheet" href="bootstrap-3.3.7/dist/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="scripts/Custom.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	
+	<body class="custBackImg">
+	
+		<div class="container custBackImg">
+			<div class="row">
+				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">            <!-Main container size = 12->
+				
+					<div class="col-lg-3 col-sm-3 col-md-3 col-xs-3">			 <!-Leave 3 columns from left->
+					</div>
+					
+					<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6">			 <!-Fit element to 6 columns in between->
+						<input class="custDatalist" list="browsers" placeholder="Enter something">
+						<datalist id="browsers">
+							<option value="Internet Explorer">
+							<option value="Firefox">
+							<option value="Chrome">
+							<option value="Opera">
+							<option value="Safari">
+						</datalist>
+						
+						<button class="custBtn">Search</button>
+					</div>
+					
+					<div class="col-lg-3 col-sm-3 col-md-3 col-xs-3">			 <!-Leave 3 columns from right->
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+<html>
